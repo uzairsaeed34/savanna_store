@@ -55,7 +55,7 @@ const DiscountItem = ({ imgSrc, category, title, offer, link }) => {
       <div className="discount-content">
         <span>{category}</span>
         <h4 className="title">
-          <a href={link}>{title}</a>
+          <Link to={link}>{title}</Link>
         </h4>
         <p>{offer}</p>
         <Link to={link} className="btn rounded-btn">

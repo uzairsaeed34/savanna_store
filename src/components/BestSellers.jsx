@@ -104,7 +104,7 @@ const ProductItem = ({ batch, imgSrc, title, status, price }) => {
           <i className="fas fa-star"></i>
         </div>
         <h6 className="title">
-          <a href="shop-details.html">{title}</a>
+          <Link to="shop-details.html">{title}</Link>
         </h6>
         <span className="product-status">{status}</span>
         <div className="sp-cart-wrap"></div>

@@ -77,9 +77,9 @@ const Header = () => {
                         <div className="icon">
                           <i className="flaticon-telephone"></i>
                         </div>
-                        <a href="tel:+14034553758">
+                        <Link to="tel:+14034553758">
                           <span>Call Us Now</span>+1 403 455 3758
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

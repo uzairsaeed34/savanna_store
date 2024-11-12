@@ -17,6 +17,7 @@ import img2 from "../assets/img/product/best_deal_product02.png";
 import img3 from "../assets/img/product/best_deal_product03.png";
 import img4 from "../assets/img/product/best_deal_product04.png";
 import img5 from "../assets/img/product/best_deal_product05.png";
+import { Link } from "react-router-dom";
 
 const BestDeals = () => {
   const products = [
@@ -71,9 +72,9 @@ const BestDeals = () => {
               <div className="col-xl-3" key={product.id}>
                 <div className="best-deal-item">
                   <div className="best-deal-thumb">
-                    <a href="shop-details.html">
+                    <Link to="shop-details.html">
                       <img src={product.imgSrc} alt={product.name} />
-                    </a>
+                    </Link>
                   </div>
                   <div className="best-deal-content">
                     <div className="main-content">
@@ -83,11 +84,11 @@ const BestDeals = () => {
                         ))}
                       </div>
                       <h4 className="title">
-                        <a href="shop-details.html">{product.name}</a>
+                        <Link to="shop-details.html">{product.name}</Link>
                       </h4>
                     </div>
                     <div className="icon">
-                      <a href="shop-details.html">+</a>
+                      <Link to="shop-details.html">+</Link>
                     </div>
                   </div>
                 </div>

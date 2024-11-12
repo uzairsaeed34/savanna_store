@@ -98,28 +98,19 @@ const Footer = () => {
                 <div className="fw-link">
                   <ul>
                     <li>
-                      <Link to="/shop">Secure Shopping</Link>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to="/cart">Order Status</Link>
+                      <Link to="/about">About Savanna</Link>
                     </li>
                     <li>
-                      <Link to="/shop">International Shipping</Link>
+                      <Link to="/grocery">Grocery</Link>
                     </li>
                     <li>
-                      <Link to="/checkout">Payment Method</Link>
+                      <Link to="/meat">Meat</Link>
                     </li>
                     <li>
-                      <Link to="/blog">Our Blog</Link>
-                    </li>
-                    <li>
-                      <Link to="/terms-conditions">Orders and Returns</Link>
-                    </li>
-                    <li>
-                      <Link to="/checkout">Track Your Orders</Link>
-                    </li>
-                    <li>
-                      <Link to="/">Footer Links</Link>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -127,7 +118,7 @@ const Footer = () => {
             </div>
 
             {/* Useful Links */}
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+            {/* <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
               <div className="footer-widget mb-50">
                 <div className="fw-title">
                   <h5 className="title">Useful Links</h5>
@@ -161,7 +152,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

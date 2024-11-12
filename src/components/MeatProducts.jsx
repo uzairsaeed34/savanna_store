@@ -30,6 +30,7 @@ import meatProduct28 from "../assets/img/product/meat_products/rahu.png";
 import meatProduct29 from "../assets/img/product/meat_products/goat-shoulder.png";
 
 import specialProducts from "../assets/img/product/banner.png";
+import { Link } from "react-router-dom";
 
 const products = [
   { id: 1, img: meatProduct01, title: "Chicken Breast (1lb)", price: "$9.75" },
@@ -147,7 +148,7 @@ const MeatItems = () => {
                         </div>
                         <div className="sp-product-content">
                           <h6 className="title">
-                            <a href="">{product.title}</a>
+                            <Link to="">{product.title}</Link>
                           </h6>
                           <p>{product.price}</p>
                         </div>

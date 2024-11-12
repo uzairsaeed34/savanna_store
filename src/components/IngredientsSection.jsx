@@ -70,9 +70,9 @@ const IngredientsSection = () => {
                   <Link to="grocery" className="btn rounded-btn">
                     shop now
                   </Link>
-                  <a href="index.html" className="store-link">
+                  <Link to="index.html" className="store-link">
                     our Super Store <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
